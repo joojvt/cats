@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+body{
+	font-family: "Montserrat", Sans-Serif;
+	width: 100%;
+	height: 100vh;
+	background: url('images/eee.jpg');
+	background-size: cover;
+	background-position: center;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	width: 350px;
+	height: 370px;
+	backdrop-filter: blur(7px);
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px #00000069;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	transition: box-shadow 0.3s ease;
+}
+img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	border: 1px solid Black;
+	border-radius: 50%;
+	box-shadow: 0 0 10px black;
+}
+
+.form:hover{
+	box-shadow: 0px 0px 20px #ffffff7d;
+	transition: box-shadow 0.3s ease;
+}
+.form h2{
+	padding-bottom: 10px;
+	color: white;
+}
+input{
+	border: 1px solid #a9a9a9;
+	border-radius: 30px;
+	outline: none;
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	transition: border 0.3s ease;
+}
+input:focus{
+	border: 1px solid white;
+	box-shadow: 0 0 10px #ffffff8f;
+	transition: border 0.3s ease;
+}
+button{
+	border: none;
+	border-radius: 30px;
+	margin-top: 15px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 6px 6px 10px  #0000008f;
+	transition: background-color 0.3s ease;
+}
+button:hover{
+	background-color: #bcbcbc;
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+a{
+	color: white;
+}
